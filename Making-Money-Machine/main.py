@@ -41,7 +41,7 @@ page = st.sidebar.radio("Go to", ["Home", "Premium", "Partner Offers"])
 col1, col2 = st.columns([1, 3])
 with col1:
     try:
-        img = Image.open("E:\\Ramzan coding practice\\Making-Money-Machine\\images\\money.jpg")
+        img = Image.open("Making-Money-Machine/images/money.jpg")
         st.image(img, width=100)
     except:
         st.warning("⚠️ Logo not found. Please upload 'money.jpg'.")
